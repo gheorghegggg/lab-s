@@ -31,8 +31,8 @@ int main()
 * Person
 
 Объекты:
-* length
-* power
+* length 2x
+* power 2x
 * Person person
 * legs
 * person.legs[0]

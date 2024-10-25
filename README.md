@@ -54,8 +54,8 @@ int main()
 Шаблонный тип: std::array<Leg, 2>
 
 Все объекты:
-* length
-* power
+* length 2x
+* power 2x
 * person
 * person.legs[0], person.legs[1]
 * person.arms[0], person.arms[1]

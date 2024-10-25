@@ -23,33 +23,39 @@ int main()
 }
 ```
 Типы:
-int
-Leg
-Arm
-std::array<Leg, 2>
-Arm[2]
-Person
+* int
+* Leg
+* Arm
+* std::array<Leg, 2>
+* Arm[2]
+* Person
+
 Объекты:
-Person person
-legs
-person.legs[0]
-person.legs[1]
-arms
-person.arms[0]
-person.arms[1]
+* length
+* power
+* Person person
+* legs
+* person.legs[0]
+* person.legs[1]
+* arms
+* person.arms[0]
+* person.arms[1]
+
+
 Иерархия объектов:
-Person person состоит из:
-Leg legs[2] (массив из двух объектов Leg):
-каждый объект Leg содержит поле int length.
-Arm arms[2] (массив из двух объектов Arm):
-каждый объект Arm содержит поле int power.
-Итак, все типы:
+* Person person состоит из:
+* Leg legs[2] (массив из двух объектов Leg):
+* каждый объект Leg содержит поле int length.
+* Arm arms[2] (массив из двух объектов Arm):
+* каждый объект Arm содержит поле int power.
 
 Примитивный тип: int
 Пользовательские типы: Leg, Arm, Person
 Шаблонный тип: std::array<Leg, 2>
-Все объекты:
 
-person
-person.legs[0], person.legs[1]
-person.arms[0], person.arms[1]
+Все объекты:
+* length
+* power
+* person
+* person.legs[0], person.legs[1]
+* person.arms[0], person.arms[1]
